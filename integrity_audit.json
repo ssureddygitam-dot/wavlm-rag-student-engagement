@@ -1,0 +1,73 @@
+{
+  "source_root": "/content/drive/MyDrive/engagement_data",
+  "wav_dir": "/content/drive/MyDrive/engagement_data/Wav_Files/Wav_Files",
+  "source_label_file": "/content/drive/MyDrive/engagement_data/file_labels.csv",
+  "num_samples": 401,
+  "num_participants": 59,
+  "class_mapping": {
+    "H": 0,
+    "L": 1,
+    "P": 2
+  },
+  "class_counts": {
+    "0": 133,
+    "1": 134,
+    "2": 134
+  },
+  "split_counts": {
+    "train": {
+      "participants": 41,
+      "samples": 281,
+      "class_counts": {
+        "0": 93,
+        "1": 94,
+        "2": 94
+      }
+    },
+    "val": {
+      "participants": 9,
+      "samples": 60,
+      "class_counts": {
+        "0": 20,
+        "1": 20,
+        "2": 20
+      }
+    },
+    "test": {
+      "participants": 9,
+      "samples": 60,
+      "class_counts": {
+        "0": 20,
+        "1": 20,
+        "2": 20
+      }
+    }
+  },
+  "participant_overlap": {
+    "train_val": [],
+    "train_test": [],
+    "val_test": []
+  },
+  "missing_wavs": [],
+  "ambiguous_wavs": [],
+  "temporal_shape": [
+    401,
+    128,
+    112
+  ],
+  "global_shape": [
+    401,
+    347
+  ],
+  "hubert_raw_shape": [
+    401,
+    1536
+  ],
+  "hubert_pca_shape": [
+    401,
+    256
+  ],
+  "split_sha256": "df860201d0c2ea8a4985fe219043b9c50c5e69723b0012d6caa90800cfa2d8c7",
+  "expected_split_sha256_match": true,
+  "passed": true
+}
